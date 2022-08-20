@@ -1,6 +1,7 @@
 Conceitos:
   1 - Dado:
-    R.: Os dados são um meio necessário para a compreensão e/ou entendimento de uma determinada coisa, como o produto de uma loja. Eles são o que nós conhecemos como as características de um determinado objeto.
+    R.: Os dados são um meio necessário para a compreensão e/ou entendimento de uma determinada coisa, como o produto de uma loja.
+        Eles são o que nós conhecemos como as características de um determinado objeto.
 
   2 - Informação:
     R.: É aquilo que compõe o arquivo de uma determinada função ou área de um setor, sendo ele de uma empresa ou não.
@@ -9,4 +10,5 @@ Conceitos:
     R.: É o responsável por armazenar um conjunto de informações, que por sua vez é formado de variados outros conjuntos de dados.
 
   4 - Banco de Dados:
-    R.: Este, por sua vez, é o conjunto de dados integrados cujo objetivo é atender a uma comunidade de usuários ou, de forma resumida, é um conjunto de arquivos convencionais integrados entre si.
+    R.: Este, por sua vez, é o conjunto de dados integrados cujo objetivo é atender a uma comunidade de usuários ou, de forma resumida,
+        é um conjunto de arquivos convencionais integrados entre si.
