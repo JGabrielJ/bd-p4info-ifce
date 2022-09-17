@@ -1,0 +1,21 @@
+• Definição:
+    1 - Sistema Isolado:
+        R.: Nos sistemas isolados, os dados não são compartilhados entre si, tendo cada sistema o seu próprio
+        arquivo convencional, com cada dado e informação guardados separadamente dos outros sistemas. Um
+        exemplo disso é o funcionamento de uma empresa, onde existem três setores: produção, vendas e compras.
+        Cada setor tem o seu próprio arquivo (um arquivo da produção, outro das vendas e outro das compras),
+        onde neles estão armazenados os dados e informações de cada produto dessa empresa. Os problemas desse
+        tipo de sistema são a redundância controlada de dados (onde o software a gerencia) e a não controlada
+        (onde o usuário a gerencia). A redundância não controlada de dados pode causar a entrada repetida da
+        mesma informação e a inconsistência de dados.
+
+    2 - Sistema Integrado:
+        R.: Como forma de solucionar o problema da redundância não controlada de dados, os sistemas integrados
+        vêm com o objetivo de proporcionar o compartilhamento de dados, onde cada informação é armazenada uma
+        única vez e, ao invés de as informações estarem guardadas em vários arquivos separados, é utilizado um
+        banco de dados para armazenar todas essas informações. Um banco de dados nada mais é que, de forma
+        resumida, um conjunto de arquivos convencionais que armazenam dados. Utilizando o exemplo anterior,
+        cada setor estará conectado a um único banco de dados que está armazenando todos os dados e
+        informações dos produtos da empresa. A implementação desse tipo de sistema causa algumas
+        consequências, como a estrutura interna dos arquivos passar a ser mais complexa e ter a necessidade de
+        atender às necessidades dos diferentes sistemas (ou setores).
