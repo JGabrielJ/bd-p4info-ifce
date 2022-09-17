@@ -1,0 +1,26 @@
+• Descrição:
+    1 - Modelagem Conceitual:
+        R.: O modelo conceitual é uma descrição do banco de dados que não depende do tipo de Sistema de
+        Gerência de Banco de Dados (SGBD) e faz o registro da estrutura dos dados que podem aparecer no banco
+        de dados. O que esse modelo não registra é como esses dados vão estar armazenados quando chegar o
+        momento de implementar a aplicação em um SGBD. O modelo conceitual é representado através de um DER
+        (Diagrama Entidade-Relacionamento), que por sua vez faz uso da abordagem entidade-relacionamento (ER),
+        a técnica mais difundida de modelagem conceitual. Utilizando novamente o exemplo da empresa, um modelo
+        de DER pode informar, por exemplo, que o banco de dados contém dados a respeito de produtos e sobre os
+        tipos de produtos. Para cada produto, o banco de dados registra seu código, sua descrição e seu preço,
+        bem como o tipo de produto ao qual o mesmo está associado. Para cada tipo de produto, o banco de dados
+        armazena seu código e sua descrição, bem como os produtos pertencentes àquele tipo.
+
+    2 - Projeto Lógico:
+        R.: O modelo lógico é uma descrição do banco de dados no nível de abstração que pode ser visualizado
+        pelo usuário do SGBD e, diferente do modelo conceitual, este depende do tipo de SGBD que está sendo
+        utilizado. Em um SGBD relacional, os dados estão organizados em forma de tabelas. Ele deve definir
+        quais as tabelas que o banco contém e, para cada tabela, quais os nomes das colunas.
+
+    3 - Projeto Físico:
+        R.: O modelo físico contém detalhes de armazenamento interno de informações, detalhes estes que não
+        têm influência sobre a programação de aplicações no SGBD, mas que influenciam no desempenho das
+        aplicações. Estes tipos de modelo são usados apenas por profissionais que fazem sintonia (ajuste de
+        desempenho ou "tuning") de banco de dados. Esse processo é adequado para a construção de um novo banco
+        de dados, mas caso já exista um banco de dados ou um conjunto de arquivos convencionais, e pretende-se
+        construir um novo banco de dados, o processo é modificado e incorpora uma etapa de engenharia reversa.
